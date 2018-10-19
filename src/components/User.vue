@@ -1,6 +1,6 @@
 <template>
   <div id="user">
-    我是用户中心
+    <mt-cell title="我是用户中心"/>
     <div class="user">
       <div class="left">
         <ul>
@@ -23,21 +23,23 @@
 <script>
   export default {
     data() {
-      return {}
+      return {};
     },
-    methods: {}, mounted() {
+    methods: {},
+    mounted() {}
+  };
 
-    }
-  }
 </script>
 
 <style lang="scss" scoped>
   .user {
     display: flex;
+
     .left {
       width: 200px;
-      min-height: 400px;
-      border-right: 1px solid #eee;
+      // min-height: 400px;
+      border-right: 2px solid #eee;
+
       li {
         line-height: 2;
       }
@@ -45,6 +47,6 @@
     .right {
       flex: 1;
     }
-
   }
+
 </style>

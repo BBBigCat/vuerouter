@@ -1,6 +1,6 @@
 <template>
   <div>
-    商品详情
+    <mt-cell title="商品详情"/>
   </div>
 </template>
 
