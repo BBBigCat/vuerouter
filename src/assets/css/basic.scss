@@ -8,8 +8,8 @@ html{
   font-size: 62.5%;
 }
 
-body {
-  font: 12px/1.5 'Microsoft YaHei','宋体', Tahoma, Arial, sans-serif;
+ body {
+  font: 16px/1.5 'Microsoft YaHei','宋体', Tahoma, Arial, sans-serif;
   color: #555;
   background-color: #F7F7F7;
 }
@@ -21,6 +21,9 @@ ul,li{
 }
 strong {
   font-weight: normal;
+}
+a{
+  text-decoration: none;
 }
 .clearfix:after {
   content: "";
